@@ -1,5 +1,5 @@
 # Copy Paste: Self-Cloning python code
-(..)[back]
+[back](..)
 ##### Type `challenge`
 ##### Lang `python`	
 ##### Tags `self replicate`, `clone`
@@ -14,5 +14,6 @@ The program MAY NOT:
 
 ## Requirements
 - The program may be nonempty
+- A (python) repl doesnt count!
 - The printed string should be 1:1 the input string
 - You should be able to copy-paste the output to a file, compile/run it, repeat indefinetly
