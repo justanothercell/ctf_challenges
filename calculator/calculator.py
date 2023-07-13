@@ -4,6 +4,7 @@ g = globals()
 del g['__builtins__'].open
 del g['__builtins__'].exec
 del g['__builtins__'].eval
+del g['__builtins__'].input
 
 while True:
     try:
