@@ -5,9 +5,16 @@ Feel free to submit a pull request if you found a completely different or better
 
 Disclaimer: All challenges are self-made. Some challenges require using backdoors,
 but rely on you playing "by the rules", as the solution is oftentimes included or 
-easily accessible. All components are either in this repo, or on [dfsu.systems](http.//dfsu.systems) (or a subdomain thereof).
+easily accessible. All components are either in this repo, or on my website [dfsu.systems](http.//dfsu.systems) (or a subdomain thereof), if it explicitly says so there.
 DO NOT attempt to hack or find abckdoors of anything outside the aforementioned scope of the challenge. 
 Every challenege explicitly says what you may or may not touch.
+
+# Challenges
+| name                                              | type               | lang(s)             | tags                   |
+|---------------------------------------------------|--------------------|---------------------|------------------------|
+| [sql_injection](http://sqlinjection.dfsu.systems) | resource/challenge | `mysql`, `(python)` | `SQL`, `sql injection` |
+| [calculator](./calculator)                        | ctf                | `python`            | `RCE`, `repl`, `eval`  |
+- 
 
 # Structure
 (examples with python, might use other langs in the future)<br>
