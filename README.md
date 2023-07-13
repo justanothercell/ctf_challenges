@@ -14,7 +14,6 @@ Every challenege explicitly says what you may or may not touch.
 |---------------------------------------------------|--------------------|---------------------|------------------------|
 | [sql_injection](http://sqlinjection.dfsu.systems) | resource/challenge | `mysql`, `(python)` | `SQL`, `sql injection` |
 | [calculator](./calculator)                        | ctf                | `python`            | `RCE`, `repl`, `eval`  |
-- 
 
 # Structure
 (examples with python, might use other langs in the future)<br>
