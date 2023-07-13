@@ -24,7 +24,7 @@ Typically such a challenge would contain
 - `solution.py` or `solution_x.py` where multiple exist or `solution/*`: Look at only if stuck or you beat the challenge
 - optionally `HINT.md` or `HINT_[x].md` where multiple exist: Look at those only if stuck
 ### CTF File Access
-- Solutions may obviously only be checked after the challenge, or if completely stuck
+- Solutions and hints may obviously only be checked after the challenge, or if completely stuck
 - `None`: You may not open the file, look at it's metadata or in any way interact with it except through the exploit.<br>
 (Imagine this file is on the server and contains a password or key, like a `.env` file)
 - `Readonly`: You may open the file to read its contents, but not edit it. <br>
