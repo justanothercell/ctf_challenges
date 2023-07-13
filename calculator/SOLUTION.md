@@ -25,11 +25,13 @@ __import__("pathlib").Path("flag").read_text()
 __import__(str().join(map(chr, [112, 97, 116, 104, 108, 105, 98]))).Path(str().join(map(chr, [102, 108, 97, 103]))).read_text()
 ```
 
-## Trivia
-Without removing `exec` and `eval` you could do:
+## Fun solutions before I resticted it more
+Without blocking `exec` and `eval`:
 ```py
 :exec(input())
 while True: exec(input('> '))
 > from pathlib import *
 > print(pathlib.Path('flag').read_text())
 ```
+Without blocking `input`:
+`__import__(input()).Path(input()).read_text()`
