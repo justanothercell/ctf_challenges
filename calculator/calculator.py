@@ -2,6 +2,8 @@ import math
 
 g = globals()
 del g['__builtins__'].open
+del g['__builtins__'].exec
+del g['__builtins__'].eval
 
 while True:
     try:
