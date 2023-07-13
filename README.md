@@ -15,6 +15,7 @@ Every challenege explicitly says what you may or may not touch.
 | [sql_injection](http://sqlinjection.dfsu.systems) | `resource/challenge` | `mysql`, `(python)` | `SQL`, `sql injection`    |
 | [calculator](./calculator)                        | `CTF`                | `python`            | `RCE`, `repl`, `eval`     |
 | [copy paste](./copy_paste)                        | `challenge`          | `python`            | `self replicate`, `clone` |
+| [tamper_proof](./tamper_proof)                    | `CTF`                | `python`            | `hash`, `self check`      |
 
 # Structure
 (examples with python, might use other langs in the future)<br>
