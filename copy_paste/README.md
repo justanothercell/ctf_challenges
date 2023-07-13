@@ -15,5 +15,6 @@ The program MAY NOT:
 ## Requirements
 - The program may be nonempty
 - A (python) repl doesnt count!
-- The printed string should be 1:1 the input string
+- It must run without errors
+- The printed string has to be _exactly_ equal to the program
 - You should be able to copy-paste the output to a file, compile/run it, repeat indefinetly
