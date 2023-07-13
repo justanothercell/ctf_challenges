@@ -2,7 +2,7 @@
 [back](..)
 ##### Type `challenge`
 ##### Lang `python`	
-##### Tags `self replicate`, `clone`
+##### Tags `recursion`, `clone`
 
 ## Task
 Create a program in python (or any language of your choice) that prints it's own source code.
