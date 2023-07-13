@@ -11,7 +11,8 @@ def r():
 
 if __name__ == "__main__":
     c, r = r()
-    m = exec(c.replace("__main__", ""))
+    g = globals()
+    m = exec(c.replace("__main__", ""), g, g)
     if input("Enter password to get flag: ").strip() == str(g["r"]()[1]["e"])+str(g["r"]()[1]["2"])+str(g["r"]()[1]["5"]):   
         with open("flag") as f:
             print(f"Correct! The flag is `{f.read().strip()}`")
