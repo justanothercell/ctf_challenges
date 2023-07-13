@@ -10,10 +10,10 @@ DO NOT attempt to hack or find abckdoors of anything outside the aforementioned 
 Every challenege explicitly says what you may or may not touch.
 
 # Challenges
-| name                                              | type               | lang(s)             | tags                   |
-|---------------------------------------------------|--------------------|---------------------|------------------------|
-| [sql_injection](http://sqlinjection.dfsu.systems) | resource/challenge | `mysql`, `(python)` | `SQL`, `sql injection` |
-| [calculator](./calculator)                        | ctf                | `python`            | `RCE`, `repl`, `eval`  |
+| name                                              | type                 | lang(s)             | tags                   |
+|---------------------------------------------------|----------------------|---------------------|------------------------|
+| [sql_injection](http://sqlinjection.dfsu.systems) | `resource/challenge` | `mysql`, `(python)` | `SQL`, `sql injection` |
+| [calculator](./calculator)                        | `CTF`                | `python`            | `RCE`, `repl`, `eval`  |
 
 # Structure
 (examples with python, might use other langs in the future)<br>
@@ -21,13 +21,13 @@ Take a look at the challenge's `README.md` for speical cases.
 ## Coding challenges
 Typically such a challenge would contain
 - `README.md` containing the task, tips, links, references, etc
-- `solution.py` or `solution_[x].py` where multiple exist or `solution/*`: Look at only if stuck or you beat the challenge
+- `solution.py` or `SOLUTION.md` or `solution_[x].py` where multiple exist or `solution/*`: Look at only if stuck or you beat the challenge
 - optionally `HINT.md` or `HINT_[x].md` where multiple exist: Look at those only if stuck
 ## CTF's/exploit finders
 - `README.md` containing the task, tips, links, references, etc
 - `[project].py` or `src/*` or `[project]/*` or similar -> Access: `Readonly` or sometimes `None`, see `README.md`
 - `flag` or `flag.txt` or `flag.zip` or similar -> Access: `None`
-- `solution.py` or `solution_x.py` where multiple exist or `solution/*`: Look at only if stuck or you beat the challenge
+- `solution.py` or `SOLUTION.md` or `solution_x.py` where multiple exist or `solution/*`: Look at only if stuck or you beat the challenge
 - optionally `HINT.md` or `HINT_[x].md` where multiple exist: Look at those only if stuck
 ### CTF File Access
 - Solutions and hints may obviously only be checked after the challenge, or if completely stuck
