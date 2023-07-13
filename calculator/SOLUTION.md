@@ -18,3 +18,12 @@ __import__("os").system("cat flag")
 # encoded:
 __import__(str().join(map(chr, [0x6F, 0x73]))).system(str().join(map(chr, [0x63, 0x61, 0x74, 0x20, 0x66, 0x6C, 0x61, 0x67])))
 ```
+
+## Trivia
+Without removing `exec` and `eval` you could do:
+```py
+:exec(input())
+while True: exec(input('> '))
+> from pathlib import *
+> print(pathlib.Path('flag').read_text())
+```
