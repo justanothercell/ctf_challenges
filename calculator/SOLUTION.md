@@ -1,5 +1,5 @@
 # Solution
-You ahve access to global variables, just `open` is blacklisted.
+You have access to global variables (see `g`), just `open` is blacklisted.
 
 That means you can import stuff using `__import__`.
 
