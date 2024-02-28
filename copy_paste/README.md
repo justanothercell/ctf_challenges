@@ -10,7 +10,7 @@ The program MAY NOT:
 - read the content of it's own source file at runtime
 - use a macro or compile time directive to include its own source code as a string
   
-=> It should run independant of a file system, aka should be executable in an online compiler/nterpreter.
+=> It should run independant of a file system, aka should be executable in an online compiler/interpreter.
 
 ## Requirements
 - The program may be nonempty
